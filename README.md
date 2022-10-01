@@ -18,3 +18,4 @@ We will launch a small node.js backend application followed by a small frontend 
 ## Get Started
 
 1. `docker compose up`
+2. Go to `localhost:8080` - you should see a greeting page.
