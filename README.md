@@ -17,7 +17,7 @@ We will launch a small node.js backend application followed by a small frontend 
 
 ## Get Started
 
-1. Build backend image: `docker build -t backend -f backend/backend.Dockerfile backend`
+1. Build backend image: `docker build -t backend -f backend/backend.Dockerfile backend/`
 2. Run backend container: `docker run -d --name=backend backend`
 3. Build frontend image: `docker build -t frontend -f frontend/frontend.Dockerfile frontend/`
 4. Run frontend container: `docker run -d --name=frontend frontend`
