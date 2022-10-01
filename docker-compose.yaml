@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: backend/
+  frontend:
+    build: frontend/
+  proxy:
+    build: proxy/
+    ports:
+      - "8080:8080"
